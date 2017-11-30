@@ -92,7 +92,7 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       padding-bottom:30px;
       padding-left:20px;
       /*@editable*/ text-align:left;
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
     .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
