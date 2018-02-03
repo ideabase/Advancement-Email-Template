@@ -152,6 +152,37 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       padding-top: 10px;
     }
 
+    /*Faculty Highlights */
+    .facultyHighlights {
+      background-color: #0B0318;
+      border-top: 5px solid #eaab00;
+    }
+
+    .facultyHighlights img {
+      width: 100%;
+    }
+
+    .facultyHighlights h1, .facultyHighlights p, .facultyHighlights h3 {
+      text-align: center;
+      padding: 10px;
+      color: #ffffff;
+    }
+
+    .facultyHighlights h1 {
+      text-transform: uppercase;
+      padding-top: 45px!important;
+    }
+
+    .facultyHighlights span, .facultyHighlights h3 {
+      font-weight: 600;
+      color: #eaab00;
+    }
+
+    .facultyHighlights p {
+      padding-bottom: 45px!important;
+      font-weight: 300;
+    }
+
 
     /* Buttons */
 
