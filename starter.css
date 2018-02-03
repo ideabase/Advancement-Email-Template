@@ -75,6 +75,21 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       font-family: Helvetica, Arial, sans-serif;
     }
 
+    .headerSocial {
+      background-color: #0B0318;
+    }
+
+    .logo {
+      height: 45px;
+      padding: 0px 15px;
+    }
+
+    .social {
+      height: 30px;
+      float: right;
+      padding: 10px 0px 0px 10px;
+    }
+
     /* Body */
 
     #templateBody{
