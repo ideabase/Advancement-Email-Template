@@ -152,16 +152,77 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       padding-top: 10px;
     }
 
-    .inHeadlines h1 {
+    hr {
+      color: rgba(0,0,0,.3);
+    }
+
+    /* Intro */
+    .intro-message h1 {
       text-transform: uppercase;
       color: #0B0318;
-      font-size: 20pt;
-      padding: 30px 0px;
+      font-size: 2.15em;
+      padding: 0px 0px 12px 0px;
+      font-weight: 600;
+      line-height: 39px;
+    }
+
+    .intro-message span {
+      color: #eaab00;
     }
 
     .inHeadlines span {
       font-weight: 600;
       color: #002664;
+    }
+
+    .intro-message p {
+      font-weight: 300;
+      line-height: 23px;
+    }
+
+    .part-two {
+      position: relative;
+      top: -28px;
+    }
+
+    .dean-name {
+      color: #002664!important;
+      font-weight: 600!important;
+    }
+
+    /* College Highlights */
+
+    .college-highlights p {
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .college-highlights .column-50 {
+      background-color: #002664;
+      border-radius: 5%;;
+    }
+
+    .college-highlights p span {
+      color: #eaab00;
+      font-weight: 800;
+      font-size: 3em;
+    }
+
+    .column.column-50.left {
+      border-right: 8px solid #ffffff;
+    }
+
+    .column.column-50.right {
+      border-left: 10px solid #ffffff;
+    }
+
+    /*Headings*/
+
+    .inHeadlines h1 {
+      text-transform: uppercase;
+      color: #0B0318;
+      font-size: 20pt;
+      padding: 30px 0px;
     }
 
     .inHeadlines hr {
@@ -174,8 +235,51 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       top: 30px;
     }
 
+    .announcements hr {
+      width: 18%!important;
+    }
+
     .inHeadlines a {
-      color: #002664!important;
+      color: #002664 !important;
+      font-weight: 500 !important;
+      line-height: 37px;
+    }
+
+    .college-highlights hr {
+      width: 34%;
+    }
+
+    /*News Section*/
+    .news h3 {
+      color: #002664;
+      font-weight: 800;
+      font-size: 1em;
+    }
+    .news-50 h4 {
+      color: #002664;
+      font-weight: 800;
+      font-size: .85em;
+      line-height: 18px;
+    }
+    .news .column-75 {
+      padding-left: 15px;
+    }
+    .news-50 p {
+      font-size: .75em;
+      line-height: 18px;
+    }
+    .news p {
+      font-size: .9em;
+      line-height: 17px;
+    }
+    .news a {
+      color: #002664 !important;
+      font-weight: 600 !important;
+      text-decoration: none !important;
+      font-size: .75em;
+      text-transform: uppercase;
+      border-left: 3px solid #eaab00;
+      padding-left: 7px;
     }
 
     /*Faculty Highlights */
@@ -197,6 +301,7 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     .facultyHighlights h1 {
       text-transform: uppercase;
       padding-top: 45px!important;
+      font-weight: 600;
     }
 
     .facultyHighlights span, .facultyHighlights h3 {
@@ -209,7 +314,44 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       font-weight: 300;
     }
 
+    /* Events */
+    .events hr {
+      width: 40%;
+    }
 
+    .event-date {
+      background-color: #0B0318;
+      width: 25%;
+    }
+
+    .event-date span {
+      color: #eaab00;
+    }
+
+    .event-date h1 {
+      color: #ffffff;
+      text-align: center;
+      font-weight: 800;
+    }
+
+    .event-info {
+      background-color: #002664;
+      border-left: 2px solid #ffffff;
+      width: 55%;
+    }
+
+    .event-info h3, .event-info p {
+      color: #ffffff;
+      padding-left: 25px;
+    }
+
+    .event-info h3 {
+      font-weight: 800;
+    }
+
+    .event-padding {
+      border-bottom: 11px solid #ffffff;
+    }
 
     /* Buttons */
 
@@ -240,7 +382,45 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       text-decoration: none;
     }
 
+    .support-btn a {
+      background-color: #0B0318;
+      color: #ffffff;
+      padding: 30px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      border-left: 8px solid #eaab00;
+    }
+
+    .support-btn span {
+      color: #eaab00;
+    }
+
+    .support-btn p {
+      text-align: center;
+    }
+
+    .support-btn {
+      height: 135px;
+    }
+
     /* Footer */
+
+    .footer-logo {
+      background-color: #0B0318;
+      border-top: 13px solid #eaab00;
+    }
+
+    .footer-logo img {
+      height: 100px;
+      padding: 50px;
+    }
+
+    .footer-credit {
+      text-align: center;
+      padding: 20px;
+    }
 
     #templateFooter{
       /*@editable*/ background-color:#F4F4F4;
