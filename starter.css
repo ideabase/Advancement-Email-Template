@@ -412,9 +412,26 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       border-top: 13px solid #eaab00;
     }
 
+    .footer-logo img, .footer-logo p {
+      padding-top: 50px;
+      padding-left: 50px;
+      padding-right: 25px;
+      padding-bottom: 30px;
+      float: left;
+    }
+
     .footer-logo img {
       height: 100px;
-      padding: 50px;
+    }
+
+    .footer-logo p {
+      color: #ffffff;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: .87em;
+    }
+
+    .footer-logo span {
+      line-height: 64px;
     }
 
     .footer-credit {
