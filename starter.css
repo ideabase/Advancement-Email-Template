@@ -75,6 +75,11 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       font-family: Helvetica, Arial, sans-serif;
     }
 
+    .support-button {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+
     .headerSocial {
       background-color: #0B0318;
     }
@@ -87,7 +92,7 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     .social {
       height: 30px;
       float: right;
-      padding: 10px 0px 0px 10px;
+      padding: 10px 5px 0px 5px;
     }
 
     /* Body */
@@ -180,6 +185,12 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       line-height: 23px;
     }
 
+    .intro-photo {
+      float: right;
+      margin: 25px;
+      margin-top: 5px;
+    }
+
     .part-two {
       position: relative;
       top: -28px;
@@ -205,15 +216,17 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     .college-highlights p span {
       color: #eaab00;
       font-weight: 800;
-      font-size: 3em;
+      font-size: 2.7em;
     }
 
     .column.column-50.left {
-      border-right: 8px solid #ffffff;
+      /*border-right: 8px solid #ffffff;*/
+      width: 49%;
     }
 
     .column.column-50.right {
-      border-left: 10px solid #ffffff;
+      /*border-left: 10px solid #ffffff;*/
+      width: 49%;
     }
 
     /*Headings*/
@@ -235,8 +248,13 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       top: 30px;
     }
 
+    .highlight-image {
+      padding-top:20px;
+      padding-bottom: 20px;
+    }
+
     .announcements hr {
-      width: 18%!important;
+      width: 18%;
     }
 
     .inHeadlines a {
@@ -286,10 +304,15 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     .facultyHighlights {
       background-color: #0B0318;
       border-top: 5px solid #eaab00;
+      text-align: center;
     }
 
-    .facultyHighlights img {
-      width: 100%;
+    .highlight-image {
+      text-align: center;
+    }
+
+    .column-blank {
+      padding: 5px;
     }
 
     .facultyHighlights h1, .facultyHighlights p, .facultyHighlights h3 {
@@ -538,6 +561,47 @@ p {
     display: block !important;
   }
 
+  .social {
+    max-width: 20px;
+    height: auto;
+    margin-right: 5px;
+  }
+
+  .college-highlights hr, .announcements hr, .inHeadlines hr, .inHeadlines hr {
+    width: 100%;
+    float: none;
+    top: inherit;
+    margin-top: 35px;
+  }
+
+  .news .column.column-25 {
+    width: 30% !important;
+    display: table-cell !important;
+  }
+
+  .logo {
+    width: 220px;
+    height: auto;
+  }
+
+  .event-info {
+    border-left: none;
+  }
+
+  .intro-message h1 {
+    font-size: 1.65em;
+    line-height: 120%;
+  }
+
+  .news-50 .column-50 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .event-date h1 {
+    text-align: left;
+    padding-left: 25px;
+  }
 
   #templateContainer{
     					max-width:600px !important;
