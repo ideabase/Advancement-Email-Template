@@ -17,7 +17,7 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
 /* ========== Page Styles ========== */
 
     #bodyCell{padding:20px;}
-    #templateContainer{width:525px;}
+    #templateContainer{width:550px;}
 
     /**
     * @tab Page
@@ -325,6 +325,11 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       text-transform: uppercase;
       padding-top: 45px!important;
       font-weight: 600;
+      line-height: 1;
+    }
+
+    .facultyHighlights-inner {
+      padding: 20px;
     }
 
     .facultyHighlights span, .facultyHighlights h3 {
@@ -564,8 +569,10 @@ p {
   .social {
     max-width: 20px;
     height: auto;
-    margin-right: 5px;
+    margin-left: 10px;
+    float: none;
   }
+
 
   .college-highlights hr, .announcements hr, .inHeadlines hr, .inHeadlines hr {
     width: 100%;
@@ -580,8 +587,11 @@ p {
   }
 
   .logo {
-    width: 220px;
+    width: 90%;
+    max-width: 275px;
     height: auto;
+    display: block;
+    margin-bottom: 10px;
   }
 
   .event-info {
@@ -603,12 +613,20 @@ p {
     padding-left: 25px;
   }
 
+  .intro-photo {
+    width: 115px;
+  }
+
+  .footer-logo p {
+    padding-top: 25px;
+  }
+
   #templateContainer{
     					max-width:600px !important;
               margin: 0 auto;
     					/*@editable*/ width:100% !important;
   }
 
-#templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+  #templatePreheader{display:none !important;} /* Hide the template preheader to save space */
 
 }
