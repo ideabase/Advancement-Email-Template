@@ -248,9 +248,23 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       top: 30px;
     }
 
+    .dean-message h1 {
+      padding-top: 15px;
+      padding-bottom: 20px;
+    }
+
+    .dean-message hr {
+      width: 20%;
+      top: 23px;
+    }
+
     .highlight-image {
       padding-top:20px;
       padding-bottom: 20px;
+    }
+
+    .announcements {
+      margin-top: 1em;
     }
 
     .announcements hr {
@@ -388,21 +402,22 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     }
 
     .ctaButton {
-      background-color: black;
+      background-color: #113772;
       text-align: center;
       padding-top: 15px;
       padding-bottom: 15px;
-      border: 3px solid gray;
-    }
+      color: white;
+   }
 
     .ctaButton a {
       width: 100%;
       display: block;
       text-align: center;
+      color: white;
     }
 
     .ctaButton:hover {
-      background-color: gray;
+      background-color: #4994CB;
     }
 
     .bodyContent .ctaButton a:link, .bodyContent .ctaButton a:visited {
