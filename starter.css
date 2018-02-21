@@ -455,18 +455,19 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     .footer-logo {
       background-color: #0B0318;
       border-top: 13px solid #eaab00;
-    }
-
-    .footer-logo img, .footer-logo p {
       padding-top: 50px;
       padding-left: 50px;
       padding-right: 25px;
       padding-bottom: 30px;
+    }
+
+    .footer-logo img, .footer-logo p {
       float: left;
     }
 
     .footer-logo img {
       height: 100px;
+      padding-right: 100px;
     }
 
     .footer-logo p {
@@ -587,6 +588,10 @@ p {
     max-width: 20px;
     height: auto;
     margin-left: 10px;
+    float: none;
+  }
+
+  .footer-logo img, .footer-logo p {
     float: none;
   }
 
