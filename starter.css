@@ -90,7 +90,7 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     }
 
     .social {
-      height: 30px;
+      height: 25px;
       float: right;
       padding: 10px 5px 0px 5px;
     }
@@ -210,7 +210,9 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
 
     .college-highlights .column-50 {
       background-color: #002664;
-      border-radius: 5%;;
+      border-radius: 5%;
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 
     .college-highlights p span {
@@ -343,7 +345,7 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     }
 
     .facultyHighlights-inner {
-      padding: 20px;
+      padding: 10px 20px;
     }
 
     .facultyHighlights span, .facultyHighlights h3 {
@@ -626,6 +628,10 @@ p {
   .event-date h1 {
     text-align: left;
     padding-left: 25px;
+  }
+
+  .dean-message hr {
+    margin-top: 10px;
   }
 
   .intro-photo {
